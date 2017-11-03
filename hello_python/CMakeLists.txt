@@ -20,3 +20,13 @@ catkin_package()
 #   scripts/my_python_script
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
+
+install(PROGRAMS
+  scripts/hello_python.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+install(PROGRAMS
+  scripts/welcome_to_ros.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
